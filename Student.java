@@ -19,6 +19,7 @@ class Student {
         System.out.println("Program: " + program); 
         System.out.println("Semester: " + semester); 
         System.out.println("Courses: " + courses.keySet()); 
+        System.out.println("Marks: " + courses.values());
     } 
     void displayLowScores() { 
         for (Map.Entry<String, Integer> entry : courses.entrySet()) { 
